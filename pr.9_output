@@ -1,0 +1,130 @@
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 1
+Enter the path of the dataset (CSV file): data/sales_data.csv
+
+== Load Dataset ==
+Dataset loaded successfully!
+
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 2
+
+== Explore Data ==
+1. Display the first 5 rows
+2. Display the last 5 rows
+3. Display column names
+4. Display data types
+5. Display basic info
+6. Back to Main Menu
+Enter your choice: 1
+         Date   Product  Sales  Quantity
+0  2026-01-01    Laptop  50000         2
+1  2026-01-02     Mouse   1500        10
+2  2026-01-03  Keyboard   3000         5
+3  2026-01-04   Monitor  12000         3
+4  2026-01-05    Laptop  45000         2
+
+== Explore Data ==
+1. Display the first 5 rows
+2. Display the last 5 rows
+3. Display column names
+4. Display data types
+5. Display basic info
+6. Back to Main Menu
+Enter your choice: 6
+
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 4
+
+== Handle Missing Data ==
+1. Display rows with missing values
+2. Fill missing values with mean
+3. Drop rows with missing values
+4. Replace missing values with a specific value
+Enter your choice: 1
+No missing values found in the dataset!
+
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 6
+
+== Data Visualization ==
+1. Bar Plot
+2. Line Plot
+3. Scatter Plot
+4. Pie Chart
+5. Histogram
+6. Stack Plot
+Enter your choice: 3
+Enter x-axis column name: Sales
+Enter y-axis column name: Quantity
+Generating scatter plot...
+Scatter plot displayed successfully!
+
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 7
+Enter file name to save the plot (e.g., scatter_plot.png): scatter_plot.png
+Visualization saved as scatter_plot.png successfully!
+
+========== Data Analysis & Visualization Program ==========
+Please select an option:
+1. Load Dataset
+2. Explore Data
+3. Perform DataFrame Operations
+4. Handle Missing Data
+5. Generate Descriptive Statistics
+6. Data Visualization
+7. Save Visualization
+8. Exit
+==========================================================
+Enter your choice: 8
+
+Exiting the program. Goodbye!
